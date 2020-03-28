@@ -18,7 +18,7 @@ func Merge(array []int) []int {
 
 func mergeSort(left, right []int) []int {
 	//result := make([]int,0)
-	result := make([]int,0)
+	result := make([]int, 0)
 	i, j := 0, 0
 	/*if*/
 	for i < len(left) && j < len(right) {
@@ -41,5 +41,3 @@ func mergeSort(left, right []int) []int {
 	}
 	return result
 }
-
-
