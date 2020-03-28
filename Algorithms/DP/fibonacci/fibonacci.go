@@ -1,6 +1,6 @@
 package fibonacci
 
-//Fibonacci函数使用的是bottom-up，也就是自下向上的方法来计算第n个值,空间复杂度为O(1)
+//Fibonacci函数使用的是bottom-up，也就是自下向上的方法来计算第n个值,时间复杂度为O(n),空间复杂度为O(1)
 func Fibonacci(n uint64) uint64 {
 	if n <= 1 {
 		return 1
